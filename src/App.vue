@@ -1,15 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HeaderSection />
+  <h1>Welcome to the Frontend Quiz!
+    Pick a subject to get started.</h1>
+
+  HTML
+  CSS
+  JavaScript
+  Accessibility
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderSection from './components/HeaderSection.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderSection
   }
 }
 </script>
