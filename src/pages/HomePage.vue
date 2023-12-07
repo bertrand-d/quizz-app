@@ -60,8 +60,6 @@ export default {
         display: flex;
         flex-direction: column;
         gap: 50px;
-        margin-left: auto;
-        width: 25%;
     }
 
     &-right {
@@ -95,22 +93,6 @@ export default {
         justify-content: center;
         padding: 10px;
         border-radius: 10px;
-    }
-
-    .html {
-        background-color: #FFF1E9;
-    }
-
-    .css {
-        background-color: #E0FDEF;
-    }
-
-    .js {
-        background-color: #EBF0FF;
-    }
-
-    .accessibility {
-        background-color: #F6E7FF;
     }
 }
 </style>

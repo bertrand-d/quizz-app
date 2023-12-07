@@ -17,7 +17,6 @@ export default {
 </script>
 
 <style lang="scss">
-
 body {
   margin: 0;
   background-color: #F4F6FA;
@@ -37,11 +36,27 @@ body {
 
 h1 {
   margin: 0;
-  font-size: 2.5em;
+  font-size: 4em;
   font-weight: 300;
 }
 
 p {
   margin: 0;
+}
+
+.html {
+  background-color: #FFF1E9;
+}
+
+.css {
+  background-color: #E0FDEF;
+}
+
+.js {
+  background-color: #EBF0FF;
+}
+
+.accessibility {
+  background-color: #F6E7FF;
 }
 </style>
