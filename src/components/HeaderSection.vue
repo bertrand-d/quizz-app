@@ -1,10 +1,10 @@
 <template>
   <header class="header">
-    <div>
+    <div class="header-title">
       <img src='/images/icon-accessibility.svg' />
       <span>Accessibilité</span>
     </div>
-    <div>
+    <div class="header-toggle">
       <img src='/images/icon-sun-dark.svg' />
       <img src='/images/icon-moon-dark.svg' />
     </div>
@@ -17,21 +17,12 @@ export default {
 }
 </script>
 
-<style scoped>
-h3 {
-  margin: 40px 0 0;
+<style lang="scss">
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #42b983;
-}</style>
+</style>
