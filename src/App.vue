@@ -1,4 +1,7 @@
 <template>
+  <div class="body-background-container">
+    <img class="body-background" src='/images/pattern-background-desktop-light.svg' />
+  </div>
   <HeaderSection />
   <HomePage />
 </template>
@@ -20,6 +23,23 @@ export default {
 body {
   margin: 0;
   background-color: #F4F6FA;
+}
+
+
+.body-background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: -1;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.body-background {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 #app {
