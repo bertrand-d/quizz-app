@@ -43,6 +43,8 @@ export default {
   }
 
   &-img-container {
+    display: flex;
+    align-items: center;
     padding: 10px;
     border-radius: 5px;
   }
