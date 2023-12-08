@@ -3,18 +3,16 @@
     <img class="body-background" src='/images/pattern-background-desktop-light.svg' />
   </div>
   <HeaderSection />
-  <HomePage />
+  <router-view></router-view>
 </template>
 
 <script>
 import HeaderSection from './components/HeaderSection.vue'
-import HomePage from './pages/HomePage.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderSection,
-    HomePage
+    HeaderSection
   }
 }
 </script>
