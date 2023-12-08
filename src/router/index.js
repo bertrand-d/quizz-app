@@ -1,16 +1,17 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
-import HomePage from '../views/HomePage.vue'
+import { createRouter, createWebHistory } from 'vue-router'
+import HomeView from '../views/HomeView.vue'
+import SubjectView from '../views/SubjectView.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomePage
+    component: HomeView
   },
   {
     path: '/subject/:title',
     name: 'subject',
-    component: HomePage
+    component: SubjectView
   },
   {
     path: '/about',
@@ -23,7 +24,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 

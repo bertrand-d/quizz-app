@@ -1,12 +1,13 @@
 <template>
-    <main class="homepage max-container">
-        <div class="homepage-left">
+    <main class="subjectview max-container">
+        <div class="subjectview-left">
             <h1 class="main-title">Welcome to the
                 <span class="bold">Frontend Quiz!</span>
             </h1>
             <p class="italic">Pick a subject to get started.</p>
         </div>
-        <div class="homepage-right">
+        <div class="subjectview-right">
+            coucou
             <div class="card-choice">
                 <div class="image-container html">
                     <img src='/images/icon-html.svg' />
@@ -37,7 +38,7 @@
   
 <script>
 export default {
-    name: 'HomePage'
+    name: 'subjectView'
 }
 </script>
   
@@ -50,7 +51,7 @@ export default {
     font-style: italic;
 }
 
-.homepage {
+.subjectview {
     display: flex;
     gap: 150px;
     margin: 0 auto;

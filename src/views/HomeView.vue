@@ -1,43 +1,43 @@
-<template>
-    <main class="homepage max-container">
-        <div class="homepage-left">
+r<template>
+    <main class="homeview max-container">
+        <div class="homeview-left">
             <h1 class="main-title">Welcome to the
                 <span class="bold">Frontend Quiz!</span>
             </h1>
             <p class="italic">Pick a subject to get started.</p>
         </div>
-        <div class="homepage-right">
-            <div class="card-choice">
+        <div class="homeview-right">
+            <router-link to="/subject/html" class="card-choice">
                 <div class="image-container html">
                     <img src='/images/icon-html.svg' />
                 </div>
                 HTML
-            </div>
-            <div class="card-choice">
+            </router-link>
+            <router-link to="/subject/css" class="card-choice">
                 <div class="image-container css">
                     <img src='/images/icon-css.svg' />
                 </div>
                 CSS
-            </div>
-            <div class="card-choice">
+            </router-link>
+            <router-link to="/subject/js" class="card-choice">
                 <div class="image-container js">
                     <img src='/images/icon-js.svg' />
                 </div>
                 Javascript
-            </div>
-            <div class="card-choice">
+            </router-link>
+            <router-link to="/subject/accessbility" class="card-choice">
                 <div class="image-container accessibility">
                     <img src='/images/icon-accessibility.svg' />
                 </div>
                 Accessibility
-            </div>
+            </router-link>
         </div>
     </main>
 </template>
   
 <script>
 export default {
-    name: 'HomePage'
+    name: 'HomeView'
 }
 </script>
   
@@ -50,7 +50,7 @@ export default {
     font-style: italic;
 }
 
-.homepage {
+.homeview {
     display: flex;
     gap: 150px;
     margin: 0 auto;
